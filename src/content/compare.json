@@ -1,0 +1,9 @@
+[
+  { "id": "ra", "title": "Ra tebal vs ra tipis", "a": { "letter": "ra", "variant": "tafkhim", "label": "رَ tebal" }, "b": { "letter": "ra", "variant": "tarqiq", "label": "رِ tipis" }, "explanation": "Makhrajnya sama. Pada ra tebal, pangkal lidah terangkat dan rongga mulut menyempit; pada ra tipis pangkal lidah tetap turun." },
+  { "id": "sin-shad", "title": "س vs ص", "a": { "letter": "sin" }, "b": { "letter": "shad" }, "explanation": "Makhraj sama (ujung lidah dekat gigi seri bawah). ص memiliki isti'la dan ithbaq: pangkal lidah naik dan permukaan lidah melekat ke langit-langit, sehingga tebal." },
+  { "id": "ta-tho", "title": "ت vs ط", "a": { "letter": "ta" }, "b": { "letter": "tho" }, "explanation": "Makhraj sama. ت hams (napas mengalir) dan tipis; ط jahr, isti'la, ithbaq, dan qalqalah." },
+  { "id": "dzal-zai", "title": "ذ vs ز", "a": { "letter": "dzal" }, "b": { "letter": "zai" }, "explanation": "ذ: ujung lidah keluar menyentuh ujung gigi seri atas. ز: ujung lidah di dalam, dekat gigi seri bawah, dengan desis (shafir)." },
+  { "id": "hha-ha", "title": "ح vs ه", "a": { "letter": "hha" }, "b": { "letter": "ha" }, "explanation": "ح dari tengah tenggorokan (faring disempitkan). ه dari pangkal tenggorokan dekat pita suara, lebih ringan." },
+  { "id": "kaf-qof", "title": "ك vs ق", "a": { "letter": "kaf" }, "b": { "letter": "qof" }, "explanation": "ق lebih ke belakang (langit-langit lunak) dan tebal. ك sedikit lebih ke depan, tipis, dan napasnya mengalir (hams)." },
+  { "id": "hamzah-ain", "title": "ء vs ع", "a": { "letter": "hamzah" }, "b": { "letter": "ain" }, "explanation": "ء: pita suara menutup lalu dilepas (syiddah, suara terputus). ع: tengah tenggorokan menyempit, suara setengah mengalir (tawassuth)." }
+]

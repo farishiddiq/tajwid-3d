@@ -1,0 +1,6 @@
+{
+  "_doc": "url: path file .glb/.gltf (relatif ke situs), atau null untuk model 2,5D prosedural lama. Bawaan: head-3d.glb (model 3D volumetrik, dibuat dengan `npm run model:build`). Ganti dengan file dari 3D artist bila sudah ada. transform: penyelarasan ke sistem koordinat data. tongue: auto | bones | morphs. Lihat docs/model-3d-artist.md. Uji tanpa mengubah file ini: tambahkan ?model=models/nama.glb di URL.",
+  "url": "models/head-3d.glb",
+  "transform": { "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": 1 },
+  "tongue": "auto"
+}

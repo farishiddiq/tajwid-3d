@@ -1,0 +1,190 @@
+[
+  {
+    "id": "hamzah", "char": "ء", "name": "Alif / Hamzah", "translit": "'",
+    "test": "أَأْ", "forms": { "fathah": "أَ", "kasrah": "إِ", "dhammah": "أُ" },
+    "makhraj": 2, "pose": "glottal",
+    "mistakes": ["Hamzah tidak terdengar (dilewati) saat sukun.", "Ditekan terlalu keras sehingga terdengar seperti batuk.", "Tertukar dengan 'ain (ع) karena sama-sama dari tenggorokan."],
+    "confusedWith": ["ain", "ha"]
+  },
+  {
+    "id": "ba", "char": "ب", "name": "Ba", "translit": "b", "test": "أَبْ",
+    "makhraj": 16, "pose": "bilabial",
+    "mistakes": ["Pantulan (qalqalah) tidak terdengar saat sukun.", "Dibaca seperti 'p' tanpa getaran pita suara.", "Bibir kurang rapat."],
+    "confusedWith": ["mim", "fa"]
+  },
+  {
+    "id": "ta", "char": "ت", "name": "Ta", "translit": "t", "test": "أَتْ",
+    "makhraj": 12, "pose": "nathiyah",
+    "mistakes": ["Ditebalkan sehingga mirip ط.", "Napas (hams) tidak dialirkan setelah huruf dilepas.", "Ujung lidah menyentuh gigi bawah, bukan pangkal gigi seri atas."],
+    "confusedWith": ["tho", "dal"]
+  },
+  {
+    "id": "tsa", "char": "ث", "name": "Tsa", "translit": "ts",
+    "test": "أَثْ", "makhraj": 14, "pose": "litsawiyah",
+    "mistakes": ["Dibaca seperti س (s) karena ujung lidah tidak keluar ke ujung gigi seri atas.", "Ujung lidah keluar terlalu jauh."],
+    "confusedWith": ["sin", "dzal"]
+  },
+  {
+    "id": "jim", "char": "ج", "name": "Jim", "translit": "j", "test": "أَجْ",
+    "makhraj": 7, "pose": "wasath",
+    "mistakes": ["Qalqalah tidak dipantulkan saat sukun.", "Dibaca lembut seperti 'sy' atau 'dz'."],
+    "confusedWith": ["zai", "syin"]
+  },
+  {
+    "id": "hha", "char": "ح", "name": "Ḥa", "translit": "ḥ", "test": "أَحْ",
+    "makhraj": 3, "pose": "pharyngeal",
+    "mistakes": ["Dibaca seperti ه (h biasa) — tengah tenggorokan tidak disempitkan.", "Dibaca kasar seperti خ."],
+    "confusedWith": ["ha", "kho"]
+  },
+  {
+    "id": "kho", "char": "خ", "name": "Kho", "translit": "kh", "test": "أَخْ",
+    "makhraj": 4, "pose": "uvular_fric",
+    "mistakes": ["Dibaca seperti 'k' atau ه.", "Kurang tebal (pangkal lidah tidak naik)."],
+    "confusedWith": ["hha", "kaf", "ghain"]
+  },
+  {
+    "id": "dal", "char": "د", "name": "Dal", "translit": "d", "test": "أَدْ",
+    "makhraj": 12, "pose": "nathiyah",
+    "mistakes": ["Qalqalah hilang saat sukun.", "Dibaca seperti 't' tanpa getaran pita suara."],
+    "confusedWith": ["ta", "dzal", "dhad"]
+  },
+  {
+    "id": "dzal", "char": "ذ", "name": "Dzal", "translit": "dz", "test": "أَذْ",
+    "makhraj": 14, "pose": "litsawiyah",
+    "mistakes": ["Dibaca seperti ز (z) atau د (d).", "Ujung lidah tidak keluar ke ujung gigi seri atas."],
+    "confusedWith": ["zai", "zho", "dal"]
+  },
+  {
+    "id": "ra", "char": "ر", "name": "Ro", "translit": "r", "test": "أَرْ",
+    "makhraj": 11, "pose": "ra",
+    "mistakes": ["Digetarkan berlebihan seperti 'rrr' (takrir berlebih).", "Tebal/tipis tidak sesuai kaidah (lihat modul Tafkhim & Tarqiq)."],
+    "confusedWith": ["lam"]
+  },
+  {
+    "id": "zai", "char": "ز", "name": "Zai", "translit": "z", "test": "أَزْ",
+    "makhraj": 13, "pose": "asaliyah",
+    "mistakes": ["Dibaca seperti 'j' atau ذ.", "Desis (shafir) kurang terdengar."],
+    "confusedWith": ["dzal", "jim", "sin"]
+  },
+  {
+    "id": "sin", "char": "س", "name": "Sin", "translit": "s", "test": "أَسْ",
+    "makhraj": 13, "pose": "asaliyah",
+    "mistakes": ["Ditebalkan sehingga mirip ص.", "Dibaca seperti ث (ujung lidah keluar).", "Desis terlalu lemah."],
+    "confusedWith": ["shad", "tsa", "zai"]
+  },
+  {
+    "id": "syin", "char": "ش", "name": "Syin", "translit": "sy", "test": "أَشْ",
+    "makhraj": 7, "pose": "wasath_fric",
+    "mistakes": ["Udara tidak menyebar (tafasysyi) sehingga mirip س."],
+    "confusedWith": ["sin", "jim"]
+  },
+  {
+    "id": "shad", "char": "ص", "name": "Shod", "translit": "sh", "test": "أَصْ",
+    "makhraj": 13, "pose": "asaliyah_emph",
+    "mistakes": ["Dibaca tipis seperti س.", "Pangkal lidah tidak naik dan lidah tidak melekat ke langit-langit."],
+    "confusedWith": ["sin"]
+  },
+  {
+    "id": "dhad", "char": "ض", "name": "Dhod", "translit": "dh", "test": "أَضْ",
+    "makhraj": 8, "pose": "dhad",
+    "mistakes": ["Dibaca seperti د, ل, atau ظ.", "Suara tidak dipanjangkan sepanjang tepi lidah (istithalah)."],
+    "confusedWith": ["dal", "zho", "lam"]
+  },
+  {
+    "id": "tho", "char": "ط", "name": "Tho", "translit": "th", "test": "أَطْ",
+    "makhraj": 12, "pose": "nathiyah_emph",
+    "mistakes": ["Dibaca tipis seperti ت.", "Qalqalah hilang saat sukun."],
+    "confusedWith": ["ta"]
+  },
+  {
+    "id": "zho", "char": "ظ", "name": "Zho", "translit": "zh", "test": "أَظْ",
+    "makhraj": 14, "pose": "litsawiyah_emph",
+    "mistakes": ["Dibaca tipis seperti ز atau ذ.", "Ujung lidah tidak keluar ke ujung gigi seri atas."],
+    "confusedWith": ["dzal", "dhad", "zai"]
+  },
+  {
+    "id": "ain", "char": "ع", "name": "'Ain", "translit": "'", "test": "أَعْ",
+    "makhraj": 3, "pose": "pharyngeal",
+    "mistakes": ["Dibaca seperti hamzah (ء) — tengah tenggorokan tidak disempitkan.", "Suara terputus total, padahal 'ain bersifat tawassuth (setengah mengalir)."],
+    "confusedWith": ["hamzah", "hha"]
+  },
+  {
+    "id": "ghain", "char": "غ", "name": "Ghoin", "translit": "gh", "test": "أَغْ",
+    "makhraj": 4, "pose": "uvular_fric",
+    "mistakes": ["Dibaca seperti 'g' atau 'r'.", "Kurang tebal."],
+    "confusedWith": ["kho", "qof"]
+  },
+  {
+    "id": "fa", "char": "ف", "name": "Fa", "translit": "f", "test": "أَفْ",
+    "makhraj": 15, "pose": "labiodental",
+    "mistakes": ["Dibaca seperti 'p' (bibir rapat).", "Bibir bawah menempel terlalu dalam/keras sehingga napas tidak mengalir."],
+    "confusedWith": ["ba"]
+  },
+  {
+    "id": "qof", "char": "ق", "name": "Qof", "translit": "q", "test": "أَقْ",
+    "makhraj": 5, "pose": "qof",
+    "mistakes": ["Dibaca seperti ك (k) — titik sentuhnya terlalu ke depan.", "Qalqalah hilang saat sukun.", "Kurang tebal."],
+    "confusedWith": ["kaf", "ghain"]
+  },
+  {
+    "id": "kaf", "char": "ك", "name": "Kaf", "translit": "k", "test": "أَكْ",
+    "makhraj": 6, "pose": "kaf",
+    "mistakes": ["Napas (hams) tidak dialirkan setelah dilepas.", "Ditebalkan seperti ق."],
+    "confusedWith": ["qof", "kho"]
+  },
+  {
+    "id": "lam", "char": "ل", "name": "Lam", "translit": "l", "test": "أَلْ",
+    "makhraj": 9, "pose": "lam",
+    "mistakes": ["Lam pada lafzhul jalalah dibaca tipis padahal harus tebal (atau sebaliknya).", "Udara tidak dialirkan lewat sisi lidah."],
+    "confusedWith": ["ra", "nun"]
+  },
+  {
+    "id": "mim", "char": "م", "name": "Mim", "translit": "m", "test": "أَمْ",
+    "makhraj": 16, "pose": "bilabial_nasal",
+    "mistakes": ["Dengung (ghunnah) tidak terdengar.", "Bibir tidak rapat."],
+    "confusedWith": ["ba", "nun"]
+  },
+  {
+    "id": "nun", "char": "ن", "name": "Nun", "translit": "n", "test": "أَنْ",
+    "makhraj": 10, "pose": "nun",
+    "mistakes": ["Dengung (ghunnah) kurang.", "Ujung lidah terlalu ke belakang sehingga mirip lam."],
+    "confusedWith": ["mim", "lam"]
+  },
+  {
+    "id": "waw", "char": "و", "name": "Wau", "translit": "w", "test": "أَوْ",
+    "forms": { "fathah": "وَ", "kasrah": "وِ", "dhammah": "وُ" },
+    "makhraj": 16, "pose": "labial_round",
+    "mistakes": ["Bibir tidak dibulatkan.", "Dibaca seperti 'v' (bibir bawah menyentuh gigi)."],
+    "confusedWith": ["waw_mad", "ba"]
+  },
+  {
+    "id": "ha", "char": "ه", "name": "Ha", "translit": "h", "test": "أَهْ",
+    "makhraj": 2, "pose": "glottal_fric",
+    "mistakes": ["Diucapkan terlalu lemah sehingga hilang saat sukun.", "Dibaca seperti ح (tengah tenggorokan disempitkan)."],
+    "confusedWith": ["hha", "hamzah"]
+  },
+  {
+    "id": "ya", "char": "ي", "name": "Ya", "translit": "y", "test": "أَيْ",
+    "makhraj": 7, "pose": "wasath_glide",
+    "mistakes": ["Tengah lidah tidak diangkat ke langit-langit.", "Dibaca seperti 'i' pendek."],
+    "confusedWith": ["ya_mad", "jim"]
+  },
+  {
+    "id": "alif_mad", "char": "ا", "name": "Alif mad", "translit": "ā", "test": "بَا",
+    "mad": true, "makhraj": 1, "pose": "jauf_a",
+    "mistakes": ["Panjang tidak sesuai (kurang/lebih dari 2 harakat untuk mad thabi'i).", "Tebal/tipis tidak mengikuti huruf sebelumnya."],
+    "confusedWith": ["hamzah"]
+  },
+  {
+    "id": "waw_mad", "char": "و", "name": "Wau mad", "translit": "ū", "test": "بُو",
+    "mad": true, "makhraj": 1, "pose": "jauf_u",
+    "mistakes": ["Bibir tidak dibulatkan.", "Panjang tidak tepat."],
+    "confusedWith": ["waw"]
+  },
+  {
+    "id": "ya_mad", "char": "ي", "name": "Ya mad", "translit": "ī", "test": "بِي",
+    "mad": true, "makhraj": 1, "pose": "jauf_i",
+    "mistakes": ["Diucapkan seperti 'e'.", "Panjang tidak tepat."],
+    "confusedWith": ["ya"]
+  }
+]

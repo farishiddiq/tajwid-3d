@@ -1,0 +1,55 @@
+{
+  "intro": "Tafkhim (tebal) dan tarqiq (tipis) adalah sifat 'aridhah: sifat yang kadang ada dan kadang tidak, tergantung keadaan. Huruf isti'la selalu tebal, huruf istifal pada dasarnya tipis, kecuali tiga huruf yang punya kaidah sendiri: ra, lam pada lafzhul jalalah, dan alif mad.",
+  "ra": {
+    "title": "Ra tebal & ra tipis",
+    "tafkhim": [
+      { "rule": "Ra berharakat fathah", "examples": [{ "arabic": "رَبَّنَا", "ref": "QS Al-Baqarah 2:201" }] },
+      { "rule": "Ra berharakat dhammah", "examples": [{ "arabic": "رُزِقُوا", "ref": "QS Al-Baqarah 2:25" }] },
+      { "rule": "Ra sukun, sebelumnya huruf berharakat fathah atau dhammah", "examples": [{ "arabic": "مَرْيَمَ", "ref": "QS Ali 'Imran 3:36" }, { "arabic": "ٱلْقُرْءَانُ", "ref": "QS Al-Baqarah 2:185" }] },
+      { "rule": "Ra sukun, sebelumnya kasrah yang tidak asli (hamzah washal)", "examples": [{ "arabic": "ٱرْجِعِىٓ", "ref": "QS Al-Fajr 89:28" }] },
+      { "rule": "Ra sukun setelah kasrah asli, diikuti huruf isti'la dalam satu kata", "examples": [{ "arabic": "قِرْطَاسٍ", "ref": "QS Al-An'am 6:7" }, { "arabic": "مِرْصَادًا", "ref": "QS An-Naba' 78:21" }] },
+      { "rule": "Ra sukun karena waqaf, sebelumnya fathah atau dhammah", "examples": [{ "arabic": "ٱلْقَمَرُ ← ٱلْقَمَرْ", "ref": "QS Al-Qamar 54:1" }] },
+      { "rule": "Ra sukun karena waqaf, sebelumnya huruf sukun (selain ya) yang didahului fathah/dhammah", "examples": [{ "arabic": "وَٱلْعَصْرِ ← وَٱلْعَصْرْ", "ref": "QS Al-'Ashr 103:1" }, { "arabic": "ٱلْقَدْرِ ← ٱلْقَدْرْ", "ref": "QS Al-Qadr 97:1" }] }
+    ],
+    "tarqiq": [
+      { "rule": "Ra berharakat kasrah", "examples": [{ "arabic": "رِجَالٌ", "ref": "QS An-Nur 24:37" }] },
+      { "rule": "Ra sukun setelah kasrah asli, dan tidak diikuti huruf isti'la", "examples": [{ "arabic": "فِرْعَوْنَ", "ref": "QS Al-Baqarah 2:49" }, { "arabic": "مِرْيَةٍ", "ref": "QS Hud 11:17" }] },
+      { "rule": "Ra sukun karena waqaf, sebelumnya ya sukun", "examples": [{ "arabic": "خَيْرٌ ← خَيْرْ", "ref": "QS Al-Baqarah 2:184" }, { "arabic": "قَدِيرٌ ← قَدِيرْ", "ref": "QS Al-Baqarah 2:20" }] },
+      { "rule": "Ra sukun karena waqaf, sebelumnya kasrah", "examples": [{ "arabic": "مُّنتَشِرٌ ← مُّنتَشِرْ", "ref": "QS Al-Qamar 54:7" }] },
+      { "rule": "Ra sukun karena waqaf, sebelumnya huruf sukun (bukan isti'la) yang didahului kasrah", "examples": [{ "arabic": "ٱلذِّكْرِ ← ٱلذِّكْرْ", "ref": "QS Shad 38:1" }] }
+    ],
+    "jawaz": [
+      { "rule": "Ra sukun setelah kasrah, diikuti huruf isti'la yang berharakat kasrah", "examples": [{ "arabic": "فِرْقٍ", "ref": "QS Asy-Syu'ara' 26:63" }], "note": "Boleh tebal atau tipis; keduanya sah." },
+      { "rule": "Ra sukun karena waqaf, sebelumnya huruf isti'la sukun yang didahului kasrah", "examples": [{ "arabic": "مِصْرَ ← مِصْرْ", "ref": "QS Yusuf 12:21" }, { "arabic": "ٱلْقِطْرِ ← ٱلْقِطْرْ", "ref": "QS Saba' 34:12" }], "note": "Ibnul Jazari memilih tebal untuk مِصْرْ dan tipis untuk ٱلْقِطْرْ." },
+      { "rule": "Ra berharakat kasrah di akhir kata yang aslinya diikuti ya yang dibuang, saat waqaf", "examples": [{ "arabic": "يَسْرِ ← يَسْرْ", "ref": "QS Al-Fajr 89:4" }, { "arabic": "فَأَسْرِ ← فَأَسْرْ", "ref": "QS Hud 11:81" }, { "arabic": "وَنُذُرِ ← وَنُذُرْ", "ref": "QS Al-Qamar 54:16" }], "note": "Boleh keduanya; tipis lebih diutamakan untuk mengingat ya yang dibuang." }
+    ]
+  },
+  "lam": {
+    "title": "Lam pada lafzhul jalalah (ٱللَّه)",
+    "tafkhim": [
+      { "rule": "Didahului huruf berharakat fathah", "examples": [{ "arabic": "قَالَ ٱللَّهُ", "ref": "QS Al-Ma'idah 5:110" }] },
+      { "rule": "Didahului huruf berharakat dhammah", "examples": [{ "arabic": "رَّسُولُ ٱللَّهِ", "ref": "QS Al-Fath 48:29" }] },
+      { "rule": "Dibaca di awal (hamzah washal dibaca fathah)", "examples": [{ "arabic": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ", "ref": "QS Al-Baqarah 2:255" }] }
+    ],
+    "tarqiq": [
+      { "rule": "Didahului huruf berharakat kasrah (asli atau 'aridh)", "examples": [{ "arabic": "بِسْمِ ٱللَّهِ", "ref": "QS Al-Fatihah 1:1" }, { "arabic": "ٱلْحَمْدُ لِلَّهِ", "ref": "QS Al-Fatihah 1:2" }, { "arabic": "قُلِ ٱللَّهُمَّ", "ref": "QS Ali 'Imran 3:26" }] }
+    ]
+  },
+  "alif": {
+    "title": "Alif mad",
+    "description": "Alif mad tidak punya sifat tebal/tipis sendiri. Ia mengikuti huruf sebelumnya: tebal setelah huruf tebal, tipis setelah huruf tipis.",
+    "tafkhim": [{ "rule": "Setelah huruf isti'la atau ra tebal", "examples": [{ "arabic": "قَالَ", "ref": "QS Al-Baqarah 2:30" }, { "arabic": "ٱلصِّرَاطَ", "ref": "QS Al-Fatihah 1:6" }] }],
+    "tarqiq": [{ "rule": "Setelah huruf istifal", "examples": [{ "arabic": "كَانَ", "ref": "QS Al-Baqarah 2:34" }, { "arabic": "مَٰلِكِ", "ref": "QS Al-Fatihah 1:4" }] }]
+  },
+  "levels": {
+    "title": "Tingkatan tafkhim huruf isti'la",
+    "note": "Info tambahan. Sebagian ulama membagi menjadi 3 tingkatan; di sini dipakai pembagian 5 tingkatan yang umum diajarkan.",
+    "items": [
+      { "level": 1, "label": "Fathah diikuti alif", "example": "قَا", "strength": 1.0 },
+      { "level": 2, "label": "Fathah tanpa alif", "example": "قَ", "strength": 0.85 },
+      { "level": 3, "label": "Dhammah", "example": "قُ", "strength": 0.7 },
+      { "level": 4, "label": "Sukun", "example": "قْ", "strength": 0.55 },
+      { "level": 5, "label": "Kasrah", "example": "قِ", "strength": 0.4 }
+    ]
+  }
+}

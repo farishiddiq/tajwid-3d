@@ -1,0 +1,44 @@
+{
+  "_doc": "Koordinat potongan sagital (x = ke depan/bibir, y = ke atas). Pose hanya menulis titik yang berubah dari 'neutral'. contact: closure = menutup rapat, narrow = celah sempit, lateral = sisi lidah, none = tanpa sentuhan.",
+  "neutral": {
+    "tongue": {
+      "root": [-0.45, -1.75], "backLow": [-0.62, -1.0], "backMid": [-0.64, -0.2], "backTop": [-0.42, 0.55],
+      "dorsumBack": [0.3, 0.95], "dorsumMid": [1.2, 1.05], "dorsumFront": [2.1, 0.85], "blade": [2.75, 0.42],
+      "tip": [3.12, -0.1], "underTip": [2.92, -0.38], "under": [2.4, -0.72], "floorFront": [1.6, -1.1], "floor": [0.6, -1.55]
+    },
+    "lips": { "upper": [0, 0], "lower": [0, 0], "round": 0 },
+    "jaw": 0, "velum": 0, "glottis": "open"
+  },
+  "raised": {
+    "_doc": "Target pangkal lidah terangkat untuk tafkhim 'aridh (ra tebal, lam jalalah tebal, alif tebal).",
+    "backTop": [-0.6, 1.1], "dorsumBack": [0.1, 1.33], "dorsumMid": [1.2, 1.24]
+  },
+  "poses": {
+    "glottal": { "jaw": 0.1, "glottis": "closed", "contact": "closure" },
+    "glottal_fric": { "jaw": 0.1, "glottis": "narrow", "contact": "narrow" },
+    "pharyngeal": { "jaw": 0.12, "contact": "narrow", "tongue": { "backLow": [-0.86, -1.0], "backMid": [-0.96, -0.35], "backTop": [-0.64, 0.45], "dorsumBack": [0.15, 0.85] } },
+    "uvular_fric": { "jaw": 0.06, "contact": "narrow", "tongue": { "backMid": [-0.8, 0.2], "backTop": [-0.74, 1.08], "dorsumBack": [-0.1, 1.3], "dorsumMid": [1.0, 1.2] } },
+    "qof": { "jaw": 0.05, "contact": "closure", "tongue": { "backMid": [-0.74, 0.3], "backTop": [-0.64, 1.12], "dorsumBack": [-0.38, 1.47], "dorsumMid": [1.1, 1.2] } },
+    "kaf": { "jaw": 0.05, "contact": "closure", "tongue": { "backTop": [-0.45, 0.95], "dorsumBack": [0.32, 1.53], "dorsumMid": [1.25, 1.25] } },
+    "wasath": { "contact": "closure", "tongue": { "dorsumBack": [0.35, 1.25], "dorsumMid": [1.42, 1.62], "dorsumFront": [2.2, 1.4], "blade": [2.8, 0.75], "tip": [3.12, 0.0] } },
+    "wasath_fric": { "contact": "narrow", "tongue": { "dorsumBack": [0.35, 1.2], "dorsumMid": [1.42, 1.5], "dorsumFront": [2.2, 1.3], "blade": [2.8, 0.7], "tip": [3.12, 0.0] } },
+    "wasath_glide": { "contact": "narrow", "tongue": { "dorsumBack": [0.35, 1.15], "dorsumMid": [1.42, 1.44], "dorsumFront": [2.2, 1.25], "blade": [2.8, 0.65] } },
+    "dhad": { "contact": "lateral", "ithbaq": [0.2, 2.3], "tongue": { "backTop": [-0.5, 0.95], "dorsumBack": [0.2, 1.42], "dorsumMid": [1.3, 1.56], "dorsumFront": [2.25, 1.42], "blade": [2.85, 0.95], "tip": [3.1, 0.45] } },
+    "lam": { "contact": "closure", "lateralFlow": true, "tongue": { "dorsumMid": [1.2, 0.95], "dorsumFront": [2.15, 0.95], "blade": [2.8, 0.95], "tip": [3.1, 0.94], "underTip": [3.0, 0.6], "under": [2.5, -0.4] } },
+    "nun": { "contact": "closure", "velum": 1, "tongue": { "dorsumFront": [2.15, 0.9], "blade": [2.85, 0.85], "tip": [3.2, 0.78], "underTip": [3.05, 0.45], "under": [2.5, -0.4] } },
+    "ra": { "contact": "narrow", "tongue": { "dorsumFront": [2.15, 0.92], "blade": [2.72, 0.92], "tip": [3.0, 0.98], "underTip": [2.92, 0.7], "under": [2.45, -0.35] } },
+    "nathiyah": { "contact": "closure", "tongue": { "dorsumFront": [2.15, 0.88], "blade": [2.85, 0.7], "tip": [3.22, 0.6], "underTip": [3.1, 0.3], "under": [2.5, -0.45] } },
+    "nathiyah_emph": { "contact": "closure", "ithbaq": [0.2, 2.4], "tongue": { "backTop": [-0.55, 1.05], "dorsumBack": [0.2, 1.42], "dorsumMid": [1.3, 1.56], "dorsumFront": [2.2, 1.42], "blade": [2.85, 0.95], "tip": [3.22, 0.6], "underTip": [3.1, 0.3], "under": [2.5, -0.45] } },
+    "asaliyah": { "contact": "narrow", "jaw": 0.04, "tongue": { "blade": [2.85, 0.5], "tip": [3.27, 0.0], "underTip": [3.12, -0.3] } },
+    "asaliyah_emph": { "contact": "narrow", "jaw": 0.04, "ithbaq": [0.2, 2.3], "tongue": { "backTop": [-0.55, 1.05], "dorsumBack": [0.2, 1.42], "dorsumMid": [1.3, 1.56], "dorsumFront": [2.2, 1.38], "blade": [2.85, 0.85], "tip": [3.27, 0.0], "underTip": [3.12, -0.3] } },
+    "litsawiyah": { "contact": "narrow", "jaw": 0.14, "tongue": { "dorsumFront": [2.2, 0.8], "blade": [3.0, 0.35], "tip": [3.55, -0.14], "underTip": [3.3, -0.4], "under": [2.6, -0.78] } },
+    "litsawiyah_emph": { "contact": "narrow", "jaw": 0.14, "ithbaq": [0.2, 2.3], "tongue": { "backTop": [-0.55, 1.05], "dorsumBack": [0.2, 1.42], "dorsumMid": [1.3, 1.56], "dorsumFront": [2.3, 1.3], "blade": [3.0, 0.5], "tip": [3.55, -0.14], "underTip": [3.3, -0.4], "under": [2.6, -0.78] } },
+    "labiodental": { "contact": "narrow", "jaw": 0.04, "lips": { "upper": [0, 0.02], "lower": [-0.32, 0.13], "round": 0 } },
+    "bilabial": { "contact": "closure", "lips": { "upper": [0, -0.04], "lower": [0, 0.12], "round": 0 } },
+    "bilabial_nasal": { "contact": "closure", "velum": 1, "lips": { "upper": [0, -0.04], "lower": [0, 0.12], "round": 0 } },
+    "labial_round": { "contact": "narrow", "lips": { "upper": [0.16, -0.03], "lower": [0.16, 0.06], "round": 1 }, "tongue": { "backTop": [-0.42, 0.85], "dorsumBack": [0.3, 1.15] } },
+    "jauf_a": { "contact": "none", "jaw": 0.28, "tongue": { "backTop": [-0.5, 0.35], "dorsumBack": [0.3, 0.72], "dorsumMid": [1.2, 0.78], "dorsumFront": [2.1, 0.6] } },
+    "jauf_u": { "contact": "none", "jaw": 0.1, "lips": { "upper": [0.16, -0.02], "lower": [0.16, 0.04], "round": 1 }, "tongue": { "backTop": [-0.4, 0.95], "dorsumBack": [0.25, 1.18] } },
+    "jauf_i": { "contact": "none", "jaw": 0.05, "tongue": { "dorsumMid": [1.4, 1.38], "dorsumFront": [2.2, 1.22] } }
+  }
+}

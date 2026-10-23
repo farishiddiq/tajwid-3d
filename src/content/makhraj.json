@@ -1,0 +1,29 @@
+{
+  "note": "Aplikasi ini memakai pembagian 17 makhraj menurut Imam Ibnul Jazari (Matan Al-Jazariyah). Sebagian ulama membaginya menjadi 16 makhraj (Al-Jauf ditiadakan, huruf mad dibagi ke makhraj lain) atau 14 makhraj (ل ن ر digabung dalam satu makhraj). Perbedaan ini tidak mengubah cara mengucapkan huruf.",
+  "areas": [
+    { "id": "jauf", "name": "Al-Jauf", "arabic": "الجَوْف", "meaning": "Rongga mulut & tenggorokan", "description": "Ruang kosong di dalam mulut dan tenggorokan. Huruf mad keluar dari sini tanpa titik sentuh, dan berhenti bersama habisnya napas." },
+    { "id": "halq", "name": "Al-Halq", "arabic": "الحَلْق", "meaning": "Tenggorokan", "description": "Tenggorokan dibagi tiga: pangkal (paling dalam, dekat dada), tengah, dan ujung (paling dekat ke mulut)." },
+    { "id": "lisan", "name": "Al-Lisan", "arabic": "اللِّسَان", "meaning": "Lidah", "description": "Area terbanyak: 10 makhraj untuk 18 huruf, dari pangkal lidah sampai ujung lidah." },
+    { "id": "syafatain", "name": "Asy-Syafatain", "arabic": "الشَّفَتَان", "meaning": "Dua bibir", "description": "Bibir bawah dengan gigi seri atas, atau kedua bibir." },
+    { "id": "khaisyum", "name": "Al-Khaisyum", "arabic": "الخَيْشُوم", "meaning": "Rongga hidung", "description": "Pangkal hidung, tempat keluarnya dengung (ghunnah) pada nun dan mim." }
+  ],
+  "points": [
+    { "id": 1, "area": "jauf", "name": "Rongga mulut & tenggorokan", "arabic": "الجَوْف", "letters": ["alif_mad", "waw_mad", "ya_mad"], "point": [1.2, 0.95, 0], "animation": "Udara mengalir bebas; lidah dan bibir tidak menyentuh apa pun." },
+    { "id": 2, "area": "halq", "name": "Pangkal tenggorokan", "arabic": "أَقْصَى الحَلْق", "letters": ["hamzah", "ha"], "point": [-0.78, -2.62, 0], "animation": "Penutupan (ء) atau penyempitan (ه) di dekat pita suara." },
+    { "id": 3, "area": "halq", "name": "Tengah tenggorokan", "arabic": "وَسَطُ الحَلْق", "letters": ["ain", "hha"], "point": [-0.98, -0.55, 0], "animation": "Pangkal lidah mundur dan menyempitkan faring bagian tengah." },
+    { "id": 4, "area": "halq", "name": "Ujung tenggorokan", "arabic": "أَدْنَى الحَلْق", "letters": ["ghain", "kho"], "point": [-0.9, 1.3, 0], "animation": "Penyempitan di dekat anak lidah, paling dekat ke mulut." },
+    { "id": 5, "area": "lisan", "name": "Pangkal lidah + langit-langit lunak", "arabic": "أَقْصَى اللِّسَان", "letters": ["qof"], "point": [-0.5, 1.5, 0], "animation": "Pangkal lidah naik paling belakang menyentuh langit-langit lunak." },
+    { "id": 6, "area": "lisan", "name": "Pangkal lidah sedikit ke depan + langit-langit", "arabic": "أَقْصَى اللِّسَان (أَسْفَلُ مِنَ القَاف)", "letters": ["kaf"], "point": [0.35, 1.58, 0], "animation": "Sedikit lebih ke depan dan lebih rendah dari makhraj ق." },
+    { "id": 7, "area": "lisan", "name": "Tengah lidah + langit-langit keras", "arabic": "وَسَطُ اللِّسَان", "letters": ["jim", "syin", "ya"], "point": [1.45, 1.66, 0], "animation": "Tengah lidah naik ke langit-langit keras." },
+    { "id": 8, "area": "lisan", "name": "Tepi lidah + gigi geraham atas", "arabic": "حَافَّةُ اللِّسَان", "letters": ["dhad"], "point": [1.9, 0.62, -0.95], "animation": "Tepi lidah (kiri, kanan, atau keduanya) menempel ke gigi geraham atas." },
+    { "id": 9, "area": "lisan", "name": "Tepi lidah depan + gusi", "arabic": "أَدْنَى حَافَّةِ اللِّسَان", "letters": ["lam"], "point": [3.12, 0.98, 0], "animation": "Tepi depan lidah sampai ujungnya menempel ke gusi atas; udara lewat sisi lidah." },
+    { "id": 10, "area": "lisan", "name": "Ujung lidah, sedikit di bawah makhraj lam", "arabic": "طَرَفُ اللِّسَان (أَسْفَلُ مِنَ اللَّام)", "letters": ["nun"], "point": [3.22, 0.84, 0], "animation": "Ujung lidah menyentuh gusi; udara diarahkan ke hidung (ghunnah)." },
+    { "id": 11, "area": "lisan", "name": "Ujung lidah + punggung lidah dekat gusi", "arabic": "طَرَفُ اللِّسَان مَعَ ظَهْرِهِ", "letters": ["ra"], "point": [3.02, 1.04, 0], "animation": "Ujung dan sedikit punggung lidah menyentuh gusi; getaran ringan." },
+    { "id": 12, "area": "lisan", "name": "Ujung lidah + pangkal gigi seri atas", "arabic": "طَرَفُ اللِّسَان مَعَ أُصُولِ الثَّنَايَا العُلْيَا", "letters": ["ta", "dal", "tho"], "point": [3.27, 0.66, 0], "animation": "Ujung lidah menekan pangkal gigi seri atas lalu dilepas." },
+    { "id": 13, "area": "lisan", "name": "Ujung lidah + dekat gigi seri bawah", "arabic": "طَرَفُ اللِّسَان فُوَيْقَ الثَّنَايَا السُّفْلَى", "letters": ["shad", "sin", "zai"], "point": [3.38, 0.02, 0], "animation": "Celah sempit antara ujung lidah dan gigi seri; udara mendesis (shafir)." },
+    { "id": 14, "area": "lisan", "name": "Ujung lidah + ujung gigi seri atas", "arabic": "طَرَفُ اللِّسَان مَعَ أَطْرَافِ الثَّنَايَا العُلْيَا", "letters": ["tsa", "dzal", "zho"], "point": [3.55, -0.07, 0], "animation": "Ujung lidah sedikit keluar menyentuh ujung gigi seri atas." },
+    { "id": 15, "area": "syafatain", "name": "Bibir bawah bagian dalam + ujung gigi seri atas", "arabic": "بَطْنُ الشَّفَةِ السُّفْلَى مَعَ أَطْرَافِ الثَّنَايَا العُلْيَا", "letters": ["fa"], "point": [3.6, -0.04, 0], "animation": "Bibir bawah menyentuh ujung gigi seri atas; napas mengalir." },
+    { "id": 16, "area": "syafatain", "name": "Dua bibir", "arabic": "الشَّفَتَان", "letters": ["ba", "mim", "waw"], "point": [4.3, 0.02, 0], "animation": "ب dan م: bibir rapat. و: bibir membulat tanpa rapat." },
+    { "id": 17, "area": "khaisyum", "name": "Pangkal hidung", "arabic": "الخَيْشُوم", "letters": ["nun", "mim"], "ghunnah": true, "point": [2.3, 2.55, 0], "animation": "Langit-langit lunak turun sehingga aliran suara berbelok ke rongga hidung." }
+  ]
+}

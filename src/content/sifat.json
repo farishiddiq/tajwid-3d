@@ -1,0 +1,147 @@
+[
+  {
+    "id": "hams", "name": "Hams", "arabic": "الهَمْس", "group": "paired", "pair": "jahr", "pairSet": "napas",
+    "meaning": "Napas mengalir saat huruf diucapkan",
+    "letters": ["fa", "hha", "tsa", "ha", "syin", "kho", "shad", "sin", "kaf", "ta"],
+    "mnemonic": "فَحَثَّهُ شَخْصٌ سَكَتَ",
+    "visual": "Partikel udara terus keluar melewati makhraj.",
+    "focus": "breath", "demo": ["sin", "zai"],
+    "explanation": "Saat huruf hams diucapkan, napas tetap mengalir karena makhrajnya tidak menahan napas dengan kuat. Coba letakkan telapak tangan di depan mulut saat mengucap أَسْ — terasa hembusan napas."
+  },
+  {
+    "id": "jahr", "name": "Jahr", "arabic": "الجَهْر", "group": "paired", "pair": "hams", "pairSet": "napas",
+    "meaning": "Napas tertahan",
+    "complementOf": "hams",
+    "visual": "Partikel udara berhenti di titik sentuh, pita suara bergetar.",
+    "focus": "breath", "demo": ["zai", "sin"],
+    "explanation": "Huruf jahr menahan aliran napas karena makhrajnya kuat menekan. Pita suara bergetar. Bandingkan ز (jahr) dengan س (hams): makhrajnya sama, bedanya napas tertahan atau tidak."
+  },
+  {
+    "id": "syiddah", "name": "Syiddah", "arabic": "الشِّدَّة", "group": "paired", "pair": "rakhawah", "pairSet": "suara",
+    "meaning": "Suara tertahan",
+    "letters": ["hamzah", "jim", "dal", "qof", "tho", "ba", "kaf", "ta"],
+    "mnemonic": "أَجِدْ قَطٍ بَكَتْ",
+    "visual": "Titik sentuh menutup rapat; gelombang suara terhenti.",
+    "focus": "sound", "demo": ["dal", "zai"],
+    "explanation": "Suara tertahan sepenuhnya karena titik sentuhnya menutup rapat. Suara baru terdengar ketika titik sentuh dilepas."
+  },
+  {
+    "id": "tawassuth", "name": "Tawassuth", "arabic": "التَّوَسُّط", "group": "paired", "pair": "rakhawah", "pairSet": "suara",
+    "meaning": "Suara setengah tertahan",
+    "letters": ["lam", "nun", "ain", "mim", "ra"],
+    "mnemonic": "لِنْ عُمَرْ",
+    "visual": "Gelombang suara mengalir sebagian.",
+    "focus": "sound", "demo": ["lam"],
+    "explanation": "Pertengahan antara syiddah dan rakhawah: suara tidak tertahan penuh dan tidak mengalir penuh."
+  },
+  {
+    "id": "rakhawah", "name": "Rakhawah", "arabic": "الرَّخَاوَة", "group": "paired", "pair": "syiddah", "pairSet": "suara",
+    "meaning": "Suara mengalir",
+    "complementOf": ["syiddah", "tawassuth"],
+    "visual": "Gelombang suara mengalir penuh.",
+    "focus": "sound", "demo": ["zai", "dal"],
+    "explanation": "Suara mengalir terus selama huruf diucapkan karena makhrajnya tidak menutup rapat."
+  },
+  {
+    "id": "istila", "name": "Isti'la", "arabic": "الاسْتِعْلَاء", "group": "paired", "pair": "istifal", "pairSet": "lidah",
+    "meaning": "Pangkal lidah terangkat (tebal)",
+    "letters": ["kho", "shad", "dhad", "ghain", "tho", "qof", "zho"],
+    "mnemonic": "خُصَّ ضَغْطٍ قِظْ",
+    "visual": "Pangkal lidah naik ke langit-langit, rongga mulut menyempit.",
+    "focus": "tongue", "demo": ["shad", "sin"],
+    "explanation": "Pangkal lidah terangkat ke langit-langit sehingga suara menjadi tebal (tafkhim). Huruf isti'la selalu dibaca tebal."
+  },
+  {
+    "id": "istifal", "name": "Istifal", "arabic": "الاسْتِفَال", "group": "paired", "pair": "istila", "pairSet": "lidah",
+    "meaning": "Lidah turun (tipis)",
+    "complementOf": "istila",
+    "visual": "Pangkal lidah turun, rongga mulut lapang.",
+    "focus": "tongue", "demo": ["sin", "shad"],
+    "explanation": "Pangkal lidah tetap turun sehingga suara tipis (tarqiq), kecuali ra, lam jalalah, dan alif yang punya kaidah sendiri."
+  },
+  {
+    "id": "ithbaq", "name": "Ithbaq", "arabic": "الإِطْبَاق", "group": "paired", "pair": "infitah", "pairSet": "lekat",
+    "meaning": "Lidah melekat ke langit-langit",
+    "letters": ["shad", "dhad", "tho", "zho"],
+    "visual": "Permukaan lidah yang luas menempel dan menyala.",
+    "focus": "tongue", "demo": ["tho", "ta"],
+    "explanation": "Sebagian besar permukaan lidah melekat ke langit-langit, lebih kuat dari isti'la. Hanya empat huruf, dan semuanya juga huruf isti'la."
+  },
+  {
+    "id": "infitah", "name": "Infitah", "arabic": "الانْفِتَاح", "group": "paired", "pair": "ithbaq", "pairSet": "lekat",
+    "meaning": "Ada celah antara lidah dan langit-langit",
+    "complementOf": "ithbaq",
+    "visual": "Celah antara lidah dan langit-langit terlihat.",
+    "focus": "tongue", "demo": ["ta", "tho"],
+    "explanation": "Lidah tidak melekat ke langit-langit; ada celah di antaranya."
+  },
+  {
+    "id": "idzlaq", "name": "Idzlaq", "arabic": "الإِذْلَاق", "group": "paired", "pair": "ishmat", "pairSet": "ringan",
+    "meaning": "Ringan, keluar dari ujung lidah atau bibir",
+    "letters": ["fa", "ra", "mim", "nun", "lam", "ba"],
+    "mnemonic": "فِرَّ مِنْ لُبٍّ",
+    "visual": "Ujung lidah dan bibir disorot.",
+    "focus": "tip", "demo": ["ba", "lam"],
+    "explanation": "Huruf yang mudah dan cepat diucapkan karena keluar dari ujung lidah atau bibir."
+  },
+  {
+    "id": "ishmat", "name": "Ishmat", "arabic": "الإِصْمَات", "group": "paired", "pair": "idzlaq", "pairSet": "ringan",
+    "meaning": "Lebih berat diucapkan",
+    "complementOf": "idzlaq",
+    "visual": "Area makhraj selain ujung lidah dan bibir disorot.",
+    "focus": "tip", "demo": ["jim"],
+    "explanation": "Huruf yang relatif lebih berat diucapkan karena makhrajnya bukan di ujung lidah atau bibir."
+  },
+  {
+    "id": "shafir", "name": "Shafir", "arabic": "الصَّفِير", "group": "single", "meaning": "Desis",
+    "letters": ["shad", "sin", "zai"],
+    "visual": "Aliran udara sempit dan cepat di gigi depan disertai efek desis.",
+    "focus": "shafir", "demo": ["sin"],
+    "explanation": "Suara tambahan seperti desis burung, karena udara keluar lewat celah sempit antara ujung lidah dan gigi seri."
+  },
+  {
+    "id": "qalqalah", "name": "Qalqalah", "arabic": "القَلْقَلَة", "group": "single", "meaning": "Pantulan",
+    "letters": ["qof", "tho", "ba", "jim", "dal"],
+    "mnemonic": "قُطْبُ جَدٍّ",
+    "visual": "Lidah/bibir memantul saat titik sentuh dilepas, disertai riak kecil.",
+    "focus": "qalqalah", "demo": ["qof"],
+    "explanation": "Pantulan suara ketika huruf bersukun dilepas. Terjadi karena huruf ini syiddah (suara tertahan) sekaligus jahr (napas tertahan), sehingga perlu dipantulkan agar terdengar.",
+    "condition": "Terdengar jelas saat huruf bersukun."
+  },
+  {
+    "id": "lin", "name": "Lin", "arabic": "اللِّين", "group": "single", "meaning": "Lunak",
+    "letters": ["waw", "ya"],
+    "visual": "Udara mengalir lembut tanpa sentuhan.",
+    "focus": "lin", "demo": ["waw", "ya"],
+    "explanation": "و dan ي yang bersukun dan didahului fathah diucapkan lunak dan mudah, seperti pada خَوْفٌ dan بَيْتٌ.",
+    "condition": "Hanya untuk و / ي sukun yang didahului fathah."
+  },
+  {
+    "id": "inhiraf", "name": "Inhiraf", "arabic": "الانْحِرَاف", "group": "single", "meaning": "Berbelok",
+    "letters": ["lam", "ra"],
+    "visual": "Panah aliran udara membelok di sisi lidah.",
+    "focus": "inhiraf", "demo": ["lam"],
+    "explanation": "Suara berbelok dari makhrajnya: pada ل ke sisi lidah, pada ر ke arah punggung lidah dan sedikit ke lam."
+  },
+  {
+    "id": "takrir", "name": "Takrir", "arabic": "التَّكْرِير", "group": "single", "meaning": "Berulang (bergetar)",
+    "letters": ["ra"],
+    "visual": "Ujung lidah cenderung bergetar.",
+    "focus": "takrir", "demo": ["ra"],
+    "explanation": "Ujung lidah cenderung bergetar saat mengucap ر. Sifat ini perlu diketahui justru untuk dihindari berlebihan: getaran cukup sangat ringan, bukan 'rrr'."
+  },
+  {
+    "id": "tafasysyi", "name": "Tafasysyi", "arabic": "التَّفَشِّي", "group": "single", "meaning": "Menyebar",
+    "letters": ["syin"],
+    "visual": "Udara menyebar ke seluruh rongga mulut.",
+    "focus": "tafasysyi", "demo": ["syin"],
+    "explanation": "Udara menyebar di rongga mulut saat mengucap ش."
+  },
+  {
+    "id": "istithalah", "name": "Istithalah", "arabic": "الاسْتِطَالَة", "group": "single", "meaning": "Memanjang",
+    "letters": ["dhad"],
+    "visual": "Cahaya bergerak memanjang sepanjang tepi lidah.",
+    "focus": "istithalah", "demo": ["dhad"],
+    "explanation": "Suara ض memanjang dari pangkal hingga depan tepi lidah, sampai bertemu makhraj lam."
+  }
+]

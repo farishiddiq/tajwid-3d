@@ -1,0 +1,4 @@
+{
+  "_doc": "Daftarkan rekaman qari di sini. Kunci: '<id huruf>:<harakat>' (harakat: sukun | fathah | kasrah | dhammah). Nilai: nama file di folder ini. Contoh: \"ba:sukun\": \"ba_sukun.mp3\"",
+  "files": {}
+}
